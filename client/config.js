@@ -4,4 +4,4 @@
 
 
 // the url to the server:
-export const ROOT_URL = 'https://interest.glitch.me/';
+export const ROOT_URL = null;
