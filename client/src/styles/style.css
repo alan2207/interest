@@ -1,0 +1,76 @@
+body {
+  background-color: #F9F9F9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#main-wrapper {
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+
+#signout {
+  cursor: pointer;
+}
+
+
+#image-preview {
+  padding: 10px;
+  height: 400px;
+  width: 100%;
+}
+
+#img-prev {
+  height: 400px;
+  width: 100%;
+}
+
+
+
+.interest-card {
+  background-color: white;
+  color: black;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  -moz-box-shadow: 0 0 3px 1px #999;
+-webkit-box-shadow: 0 0 3px 1px #999;
+}
+
+.interest-image {
+  width: 100%;
+}
+
+
+.author {
+  display: inline-block;
+  width: 50px;
+}
+
+.buttons {
+  display: inline-block;
+  width: 60px;
+  float: right;
+}
+
+i {
+  margin: 1px;
+  cursor: pointer;
+}
+
+
+a {
+  cursor: pointer;
+  margin-right: 10px;
+}
